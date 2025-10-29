@@ -4,6 +4,8 @@
 **/*/*.sqlite3
 **/*/public/assets
 **/*/node_modules
+# Exception: Include rswag-ui node_modules in the gem
+!rswag-ui/node_modules
 *.swp
 Gemfile.lock
 /.idea/

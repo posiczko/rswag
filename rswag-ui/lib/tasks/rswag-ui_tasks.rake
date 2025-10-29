@@ -1,7 +1,7 @@
 namespace :rswag do
   namespace :ui do
 
-    desc 'TODO'
+    desc 'Copy swagger-ui assets to a destination directory'
     task :copy_assets, [ :dest ] do |t, args|
       dest = args[:dest]
       FileUtils.rm_r(dest, force: true)
